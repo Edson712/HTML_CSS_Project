@@ -1,0 +1,53 @@
+.container {
+    background: linear-gradient(90deg, rgba(185,58,58,1) 22%, rgba(15,82,157,1) 78%);;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input:hover, textarea:hover {
+    background-color: rgb(214, 133, 133);
+}
+input:focus, textarea:focus {
+    background-color:rgb(115, 149, 194);
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: rgb(119, 28, 28);
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: rgb(37, 30, 134);
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+}
